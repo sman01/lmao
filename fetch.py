@@ -69,6 +69,15 @@ toyota=['4runner', '86', 'avalon', 'avalon-hybrid', 'c-hr', 'camry', 'camry-hybr
 volkswagen=['arteon', 'atlas', 'atlas-cross-sport', 'beetle', 'beetle-convertible', 'e-golf', 'golf', 'golf-alltrack', 'golf-gti', 'golf-r', 'golf-sportwagen', 'jetta', 'jetta-gli', 'passat', 'tiguan', 'cabrio', 'cabriolet', 'cc', 'corrado', 'eos', 'eurovan', 'fox', 'gli', 'gti', 'jetta-hybrid', 'jetta-sportwagen', 'new-beetle', 'phaeton', 'r32', 'rabbit', 'routan', 'tiguan-limited', 'touareg', 'touareg-2', 'vanagon']
 volvo=['s60', 's60-cross-country', 's90', 'v60', 'v60-cross-country', 'v90', 'v90-cross-country', 'xc40', 'xc60', 'xc90', '240', '740', '760', '780', '850', '940', '960', 'c30', 'c70', 'coupe', 's40', 's70', 's80', 'v40', 'v50', 'v70', 'xc', 'xc70']
 
+fiat=[ '124-spider', '500', '500e', '500l', '500x']
+oldsmobile=[ 'achieva', 'alero', 'aurora', 'bravada', 'ciera', 'custom-cruiser', 'cutlass', 'cutlass-calais', 'cutlass-ciera', 'cutlass-supreme', 'eighty-eight', 'eighty-eight-royale', 'intrigue', 'lss', 'ninety-eight', 'regency', 'silhouette', 'toronado']
+plymouth=[ 'acclaim', 'breeze', 'colt', 'grand-voyager', 'horizon', 'laser', 'neon', 'prowler', 'sundance', 'voyager']
+pontiac=['select-model', '6000', 'aztek', 'bonneville', 'firebird', 'g3', 'g5', 'g6', 'g8', 'grand-am', 'grand-prix', 'gto', 'le-mans', 'montana', 'montana-sv6', 'solstice', 'sunbird', 'sunfire', 'torrent', 'trans-sport', 'vibe']
+mercury=[ 'capri', 'cougar', 'grand-marquis', 'marauder', 'mariner', 'mariner-hybrid', 'milan', 'milan-hybrid', 'montego', 'monterey', 'mountaineer', 'mystique', 'sable', 'topaz', 'tracer', 'villager']
+rolls=['cullinan', 'dawn', 'ghost-series-ii', 'phantom', 'wraith', 'corniche', 'ghost', 'park-ward', 'phantom-coupe', 'phantom-drophead-coupe', 'silver-seraph']
+ram=['1500', '1500-classic', '2500', '3500', 'promaster-cargo-van', 'promaster-city', 'promaster-window-van', 'c/v-cargo-van', 'c/v-tradesman', 'dakota']
+isuzu=[ 'amigo', 'ascender', 'axiom', 'hombre', 'i-series', 'impulse', 'oasis', 'pickup', 'rodeo', 'rodeo-sport', 'stylus', 'trooper', 'vehicross']
+gmc=['acadia-limited', 'envoy', 'envoy-xl', 'envoy-xuv', 'jimmy', 'r/v-3500-series', 'rally-wagon', 's-15', 's-15-jimmy', 'safari', 'safari-cargo', 'sierra-1500-classic', 'sierra-1500-hybrid', 'sierra-1500hd', 'sierra-1500hd-classic', 'sierra-2500', 'sierra-2500hd-classic', 'sierra-3500', 'sierra-3500-classic', 'sierra-c3', 'sierra-classic-1500', 'sierra-classic-2500', 'sierra-classic-3500', 'sonoma', 'suburban', 'syclone', 'typhoon', 'vandura', 'yukon-denali', 'yukon-hybrid']
 
 
 
@@ -76,7 +85,7 @@ volvo=['s60', 's60-cross-country', 's90', 'v60', 'v60-cross-country', 'v90', 'v9
 # 
 companies=[ 'acura', 'aston-martin', 'audi', 'bentley','bmw', 'buick', 'cadillac', 'chevrolet', 'chrysler',  'dodge', 'ferrari',  'ford', 'honda',  'hyundai', 'infiniti', 'jaguar', 'jeep', 'kia',  'land-rover',
   'lexus', 'lincoln', 'lotus',  'maserati', 'mazda',  'mercedes-benz',  'mini', 'mitsubishi', 'nissan',  'porsche', 'subaru', 
-  'suzuki', 'tesla', 'toyota', 'volkswagen', 'volvo']
+  'suzuki', 'tesla', 'toyota', 'volkswagen', 'volvo' 'fiat','gmc','isuzu','mercury','oldsmobile', 'plymouth','pontiac','ram',  'rolls-royce']
         
 
 
