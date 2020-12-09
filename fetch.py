@@ -21,7 +21,7 @@ def err(url,no):
             return result.status_code
         except:
             print("error")
-            time.sleep(100)
+            time.sleep(150)
             return 2
             
     else:
@@ -156,7 +156,7 @@ for comp in companies:
                      print("skip this, not found")
                      break
               if result.status_code==200:
-                driver.implicitly_wait(10)
+                driver.set_page_load_timeout(30)  
                 driver.get(url)
                 revdate=driver.find_elements_by_xpath("/html/body/div/div/main/div/div[3]/div[1]/div[5]/div/div[1]/div[1]/div[1]")
                 if revdate==[]:
@@ -222,7 +222,7 @@ for comp in companies:
 
 
                 print("------------------------sleep----------------------------")
-                time.sleep(10)
+                time.sleep(20)
               else:
                     # print("__________________________________________go to next year____________________________________")
                      break

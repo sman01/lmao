@@ -37,3 +37,31 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1607485040294	Marionette	INFO	Listening on port 41013
 1607485040348	Marionette	WARN	TLS certificate errors will be ignored for this session
 1607514675012	Marionette	INFO	Stopped listening on port 41013
+1607515086172	geckodriver	INFO	Listening on 127.0.0.1:41039
+1607515086177	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQNydUK"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607515088712	Marionette	INFO	Listening on port 42747
+1607515088845	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/proxy.js, line 283: NS_ERROR_NOT_INITIALIZED
+1607515107169	Marionette	ERROR	[33] No reply from Marionette:Register
+1607515110434	Marionette	INFO	Stopped listening on port 42747
+1607515128908	geckodriver	INFO	Listening on 127.0.0.1:39961
+1607515128913	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileSIHT9b"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607515131568	Marionette	INFO	Listening on port 33683
+1607515131677	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/proxy.js, line 283: NS_ERROR_NOT_INITIALIZED
+1607515374797	Marionette	INFO	Stopped listening on port 33683
+1607515450444	geckodriver	INFO	Listening on 127.0.0.1:47063
+1607515450449	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVRCP1o"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607515453641	Marionette	INFO	Listening on port 37803
+1607515453695	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/proxy.js, line 283: NS_ERROR_NOT_INITIALIZED
+1607515524164	Marionette	INFO	Stopped listening on port 37803
+1607515669042	geckodriver	INFO	Listening on 127.0.0.1:33385
+1607515669046	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileuvWgHU"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607515672199	Marionette	INFO	Listening on port 41429
+1607515672292	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607515715967	Marionette	INFO	Stopped listening on port 41429
