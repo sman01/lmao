@@ -82,8 +82,8 @@ gmc=['acadia-limited', 'envoy', 'envoy-xl', 'envoy-xuv', 'jimmy', 'r/v-3500-seri
 
 
 
-# 
-companies=[ 'acura', 'aston-martin', 'audi', 'bentley','bmw', 'buick', 'cadillac', 'chevrolet', 'chrysler',  'dodge', 'ferrari',  'ford', 'honda',  'hyundai', 'infiniti', 'jaguar', 'jeep', 'kia',  'land-rover',
+#   'aston-martin','acura', 'audi', 'bentley','bmw', 'buick', 'cadillac', 'chevrolet', 'chrysler','dodge', 'ferrari',  'ford',
+companies=[   'honda',  'hyundai', 'infiniti', 'jaguar', 'jeep', 'kia',  'land-rover',
   'lexus', 'lincoln', 'lotus',  'maserati', 'mazda',  'mercedes-benz',  'mini', 'mitsubishi', 'nissan',  'porsche', 'subaru', 
   'suzuki', 'tesla', 'toyota', 'volkswagen', 'volvo' 'fiat','gmc','isuzu','mercury','oldsmobile', 'plymouth','pontiac','ram',  'rolls-royce']
         
@@ -116,6 +116,7 @@ for comp in companies:
        rating=[]
        reviewer=[]
        date=[]
+       coms=[]
        if comp=="aston-martin":
            car_model=aston
        elif comp=="land-rover":
@@ -155,8 +156,8 @@ for comp in companies:
                      print("skip this, not found")
                      break
               if result.status_code==200:
+                driver.implicitly_wait(10)
                 driver.get(url)
-                time.sleep(1)
                 revdate=driver.find_elements_by_xpath("/html/body/div/div/main/div/div[3]/div[1]/div[5]/div/div[1]/div[1]/div[1]")
                 if revdate==[]:
                       # print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$=============next year=============$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
@@ -200,6 +201,7 @@ for comp in companies:
                                     #print("acceptable")
                                     reviewer.append(reed[0])
                                     date.append(reed[1])
+                                    coms.append(comp)
                                     models.append(model)
                                     years.append(year)
                                     
@@ -227,9 +229,9 @@ for comp in companies:
             dateTimeObj = datetime.now()
             timestampStr = dateTimeObj.strftime("%d-%b-%Y (%H:%M:%S.%f)")
             print('Current Timestamp : ', timestampStr)
-       d = [comp,models,years,reviewer,date,heading,rating,review]
+       d = [coms,models,years,reviewer,date,heading,rating,review]
        export_data = zip_longest(*d, fillvalue = '')
-       with open(comp+'.csv', 'w',encoding="utf-8",  newline='') as myfile:
+       with open('rev2/'+comp+'.csv', 'w',encoding="utf-8",  newline='') as myfile:
              wr = csv.writer(myfile)
              print("writing")
              wr.writerow(("Company","Model", "Year","Reviewer","Date","Title","Rating","Review"))
@@ -240,6 +242,7 @@ for comp in companies:
        timestampStr_end = dateTimeObj.strftime("%d-%b-%Y (%H:%M:%S.%f)")
     
        print(len(models))
+       print(len(coms))
        print(len(years))
        print(len(reviewer))
        print(len(date))
