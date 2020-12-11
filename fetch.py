@@ -80,11 +80,11 @@ isuzu=[ 'amigo', 'ascender', 'axiom', 'hombre', 'i-series', 'impulse', 'oasis', 
 gmc=['acadia-limited', 'envoy', 'envoy-xl', 'envoy-xuv', 'jimmy', 'r/v-3500-series', 'rally-wagon', 's-15', 's-15-jimmy', 'safari', 'safari-cargo', 'sierra-1500-classic', 'sierra-1500-hybrid', 'sierra-1500hd', 'sierra-1500hd-classic', 'sierra-2500', 'sierra-2500hd-classic', 'sierra-3500', 'sierra-3500-classic', 'sierra-c3', 'sierra-classic-1500', 'sierra-classic-2500', 'sierra-classic-3500', 'sonoma', 'suburban', 'syclone', 'typhoon', 'vandura', 'yukon-denali', 'yukon-hybrid']
 
 
-
-
-#   'aston-martin','acura', 'audi', 'bentley','bmw', 'buick', 'cadillac', 'chevrolet', 'chrysler','dodge', 'ferrari',  'ford',
-companies=[   'honda',  'hyundai', 'infiniti', 'jaguar', 'jeep', 'kia',  'land-rover',
-  'lexus', 'lincoln', 'lotus',  'maserati', 'mazda',  'mercedes-benz',  'mini', 'mitsubishi', 'nissan',  'porsche', 'subaru', 
+"""
+  'aston-martin','acura', 'audi', 'bentley','bmw', 'buick', 'cadillac', 'chevrolet', 'chrysler','dodge', 'ferrari',  'ford', 'honda',  'hyundai', 'infiniti', 'jaguar', 'jeep', 'kia',  'land-rover',
+  'lexus', 'lincoln', 'lotus',  'maserati',
+ """
+companies=[   'mazda',  'mercedes-benz',  'mini', 'mitsubishi', 'nissan',  'porsche', 'subaru', 
   'suzuki', 'tesla', 'toyota', 'volkswagen', 'volvo' 'fiat','gmc','isuzu','mercury','oldsmobile', 'plymouth','pontiac','ram',  'rolls-royce']
         
 
@@ -158,6 +158,7 @@ for comp in companies:
               if result.status_code==200:
                 driver.set_page_load_timeout(180)  
                 driver.get(url)
+                time.sleep(5)
                 revdate=driver.find_elements_by_xpath("/html/body/div/div/main/div/div[3]/div[1]/div[5]/div/div[1]/div[1]/div[1]")
                 if revdate==[]:
                       # print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$=============next year=============$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
