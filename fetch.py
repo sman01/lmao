@@ -82,10 +82,9 @@ gmc=['acadia-limited', 'envoy', 'envoy-xl', 'envoy-xuv', 'jimmy', 'r/v-3500-seri
 
 """
   'aston-martin','acura', 'audi', 'bentley','bmw', 'buick', 'cadillac', 'chevrolet', 'chrysler','dodge', 'ferrari',  'ford', 'honda',  'hyundai', 'infiniti', 'jaguar', 'jeep', 'kia',  'land-rover',
-  'lexus', 'lincoln', 'lotus',  'maserati',
+  'lexus', 'lincoln', 'lotus',  'maserati', 'mazda',  'mercedes-benz',  'mini', 'mitsubishi', 'nissan',  'porsche', 'subaru','suzuki', 'tesla', 'toyota',
  """
-companies=[   'mazda',  'mercedes-benz',  'mini', 'mitsubishi', 'nissan',  'porsche', 'subaru', 
-  'suzuki', 'tesla', 'toyota', 'volkswagen', 'volvo' 'fiat','gmc','isuzu','mercury','oldsmobile', 'plymouth','pontiac','ram',  'rolls-royce']
+companies=[ 'volkswagen', 'volvo' 'fiat','gmc','isuzu','mercury','oldsmobile', 'plymouth','pontiac','ram',  'rolls-royce']
         
 
 
@@ -158,7 +157,7 @@ for comp in companies:
               if result.status_code==200:
                 driver.set_page_load_timeout(180)  
                 driver.get(url)
-                time.sleep(5)
+                time.sleep(3)
                 revdate=driver.find_elements_by_xpath("/html/body/div/div/main/div/div[3]/div[1]/div[5]/div/div[1]/div[1]/div[1]")
                 if revdate==[]:
                       # print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$=============next year=============$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
@@ -223,7 +222,7 @@ for comp in companies:
 
 
                 print("------------------------sleep----------------------------")
-                time.sleep(20)
+                time.sleep(10)
               else:
                     # print("__________________________________________go to next year____________________________________")
                      break
