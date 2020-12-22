@@ -82,11 +82,11 @@ gmc=['acadia-limited', 'envoy', 'envoy-xl', 'envoy-xuv', 'jimmy', 'r/v-3500-seri
 
 
 """
-  'aston-martin', 'alfa-romeo', 'acura', 'audi', 'bentley','bmw', 'buick', 'cadillac', 'chevrolet', 'chrysler','dodge', 'ferrari',  'ford', 'honda',  'hyundai', 'infiniti', 'jaguar', 'jeep', 'kia',  'land-rover',
-  'lexus', 'lincoln', 'lotus',  'maserati', 'mazda',  'mercedes-benz',  'mini', 'mitsubishi', 'nissan',  'porsche', 'subaru','suzuki', 'tesla', 'toyota',
-  'volkswagen', 
+ 
  """
-companies=['volvo', 'fiat','gmc','isuzu','mercury','oldsmobile', 'plymouth','pontiac','ram',  'rolls-royce']
+companies=[ 'aston-martin', 'alfa-romeo', 'acura', 'audi', 'bentley','bmw', 'buick', 'cadillac', 'chevrolet', 'chrysler','dodge', 'ferrari',  'ford', 'honda',  'hyundai', 'infiniti', 'jaguar', 'jeep', 'kia',  'land-rover',
+  'lexus', 'lincoln', 'lotus',  'maserati', 'mazda',  'mercedes-benz',  'mini', 'mitsubishi', 'nissan',  'porsche', 'subaru','suzuki', 'tesla', 'toyota',
+  'volkswagen', 'saab', 'volvo', 'fiat','gmc','isuzu','mercury','oldsmobile', 'plymouth','pontiac','ram',  'rolls-royce']
         
 
 
@@ -95,7 +95,7 @@ companies=['volvo', 'fiat','gmc','isuzu','mercury','oldsmobile', 'plymouth','pon
 #'coupe','wagon','sedan','hatchback','suv','type-s','32-type-s','hybrid','type-r'}
 car_year=[
        '2000','2001','2002','2003','2004','2005','2006','2007','2008','2009',
-       '2010','2011','2012','2013','2014','2015','2016','2017','2018','2019'
+       '2010','2011','2012','2013','2014','2015','2016','2017','2018','2019','2020'
        ]
 options = Options()
  # Last I checked this was necessary.
@@ -125,7 +125,7 @@ for comp in companies:
            car_model=mercedes
        elif comp=="rolls-royce":
            car_model=rolls
-        elif comp=="alfa-romeo":
+       elif comp=="alfa-romeo":
            car_model=alfa
        else:
            car_model=eval(comp)

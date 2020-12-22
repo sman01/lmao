@@ -134,3 +134,21 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1607838913701	Marionette	INFO	Listening on port 39251
 1607838913761	Marionette	WARN	TLS certificate errors will be ignored for this session
 1607866722960	Marionette	INFO	Stopped listening on port 39251
+1608649334704	geckodriver	INFO	Listening on 127.0.0.1:47815
+1608649335705	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileBWGbSx"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1608649339071	Marionette	INFO	Listening on port 33681
+1608649339199	Marionette	WARN	TLS certificate errors will be ignored for this session
+1608649343080	Marionette	INFO	Stopped listening on port 33681
+1608649349422	geckodriver	INFO	Listening on 127.0.0.1:50385
+1608649349427	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilen4fCbc"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1608649353565	Marionette	INFO	Listening on port 39987
+1608649353669	Marionette	WARN	TLS certificate errors will be ignored for this session
+1608649375215	Marionette	INFO	Stopped listening on port 39987
+1608650697707	geckodriver	INFO	Listening on 127.0.0.1:38715
+1608650697714	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilerOugiT"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1608650701641	Marionette	INFO	Listening on port 43057
+1608650701778	Marionette	WARN	TLS certificate errors will be ignored for this session
+1608650713942	Marionette	INFO	Stopped listening on port 43057
