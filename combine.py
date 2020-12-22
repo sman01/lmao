@@ -2,7 +2,7 @@
 import os
 import glob
 import pandas as pd
-os.chdir(r"C:\Users\shree\OneDrive\Desktop\ScrapeU\reviews")
+os.chdir(r"/home/sman/Desktop/lmao/rev2/")
 extension = 'csv'
 all_filenames = [i for i in glob.glob('*.{}'.format(extension))]
 #combine all files in the list
