@@ -34,6 +34,7 @@ reve=0
 
 
 acura=['ilx', 'mdx', 'nsx', 'rdx', 'rlx', 'tlx', 'cl', 'ilx-hybrid', 'integra', 'legend', 'rl', 'rsx', 'slx', 'tl', 'tsx', 'tsx-sport-wagon', 'vigor', 'zdx']
+alfa=[ '4c', 'giulia', 'stelvio']
 aston=['db11', 'dbs-superleggera', 'dbx', 'rapide-amr', 'vantage', 'db7', 'db9', 'db9-gt', 'dbs', 'rapide', 'rapide-s', 'v12-vanquish', 'v12-vantage', 'v12-vantage-s', 'v8-vantage', 'vanquish', 'vanquish-s', 'virage']
 audi=['a3', 'a4', 'a4-allroad', 'a5', 'a6', 'a6-allroad', 'a7', 'a8', 'e-tron', 'e-tron-sportback', 'q3', 'q5', 'q7', 'q8', 'r8', 'rs-3', 'rs-5', 's3', 's4', 's5', 's6', 's7', 's8', 'sq5', 'sq7', 'sq8', 'tt', 'tt-rs', 'tts', '100', '200', '80', '90', 'a3-sportback-e-tron', 'allroad', 'allroad-quattro', 'cabriolet', 'coupe', 'rs-4', 'rs-6', 'rs-7', 'v8']
 bentley=['bentayga', 'continental', 'flying-spur', 'mulsanne', 'arnage', 'azure', 'azure-t', 'brooklands', 'continental-flying-spur', 'continental-flying-spur-speed', 'continental-gt', 'continental-gt-speed', 'continental-gt-speed-convertible', 'continental-gt3-r', 'continental-gtc', 'continental-gtc-speed', 'continental-supersports', 'continental-supersports-convertible', 'supersports-convertible-isr']
@@ -68,11 +69,11 @@ tesla=['model-3', 'model-s', 'model-x', 'model-y', 'roadster']
 toyota=['4runner', '86', 'avalon', 'avalon-hybrid', 'c-hr', 'camry', 'camry-hybrid', 'corolla', 'corolla-hatchback', 'corolla-hybrid', 'gr-supra', 'highlander', 'highlander-hybrid', 'land-cruiser', 'mirai', 'prius', 'prius-c', 'prius-prime', 'rav4', 'rav4-hybrid', 'rav4-prime', 'sequoia', 'sienna', 'tacoma', 'tundra', 'venza', 'yaris', 'yaris-hatchback', 'camry-solara', 'celica', 'corolla-im', 'cressida', 'echo', 'fj-cruiser', 'matrix', 'mr2', 'mr2-spyder', 'paseo', 'pickup', 'previa', 'prius-plug-in', 'prius-v', 'rav4-ev', 'supra', 't100', 'tercel', 'yaris-ia']
 volkswagen=['arteon', 'atlas', 'atlas-cross-sport', 'beetle', 'beetle-convertible', 'e-golf', 'golf', 'golf-alltrack', 'golf-gti', 'golf-r', 'golf-sportwagen', 'jetta', 'jetta-gli', 'passat', 'tiguan', 'cabrio', 'cabriolet', 'cc', 'corrado', 'eos', 'eurovan', 'fox', 'gli', 'gti', 'jetta-hybrid', 'jetta-sportwagen', 'new-beetle', 'phaeton', 'r32', 'rabbit', 'routan', 'tiguan-limited', 'touareg', 'touareg-2', 'vanagon']
 volvo=['s60', 's60-cross-country', 's90', 'v60', 'v60-cross-country', 'v90', 'v90-cross-country', 'xc40', 'xc60', 'xc90', '240', '740', '760', '780', '850', '940', '960', 'c30', 'c70', 'coupe', 's40', 's70', 's80', 'v40', 'v50', 'v70', 'xc', 'xc70']
-
+saab=[ '9-2x', '9-3', '9-3-griffin', '9-4x', '9-5', '9-7x', '900', '9000']
 fiat=[ '124-spider', '500', '500e', '500l', '500x']
 oldsmobile=[ 'achieva', 'alero', 'aurora', 'bravada', 'ciera', 'custom-cruiser', 'cutlass', 'cutlass-calais', 'cutlass-ciera', 'cutlass-supreme', 'eighty-eight', 'eighty-eight-royale', 'intrigue', 'lss', 'ninety-eight', 'regency', 'silhouette', 'toronado']
 plymouth=[ 'acclaim', 'breeze', 'colt', 'grand-voyager', 'horizon', 'laser', 'neon', 'prowler', 'sundance', 'voyager']
-pontiac=['select-model', '6000', 'aztek', 'bonneville', 'firebird', 'g3', 'g5', 'g6', 'g8', 'grand-am', 'grand-prix', 'gto', 'le-mans', 'montana', 'montana-sv6', 'solstice', 'sunbird', 'sunfire', 'torrent', 'trans-sport', 'vibe']
+pontiac=[ '6000', 'aztek', 'bonneville', 'firebird', 'g3', 'g5', 'g6', 'g8', 'grand-am', 'grand-prix', 'gto', 'le-mans', 'montana', 'montana-sv6', 'solstice', 'sunbird', 'sunfire', 'torrent', 'trans-sport', 'vibe']
 mercury=[ 'capri', 'cougar', 'grand-marquis', 'marauder', 'mariner', 'mariner-hybrid', 'milan', 'milan-hybrid', 'montego', 'monterey', 'mountaineer', 'mystique', 'sable', 'topaz', 'tracer', 'villager']
 rolls=['cullinan', 'dawn', 'ghost-series-ii', 'phantom', 'wraith', 'corniche', 'ghost', 'park-ward', 'phantom-coupe', 'phantom-drophead-coupe', 'silver-seraph']
 ram=['1500', '1500-classic', '2500', '3500', 'promaster-cargo-van', 'promaster-city', 'promaster-window-van', 'c/v-cargo-van', 'c/v-tradesman', 'dakota']
@@ -81,7 +82,7 @@ gmc=['acadia-limited', 'envoy', 'envoy-xl', 'envoy-xuv', 'jimmy', 'r/v-3500-seri
 
 
 """
-  'aston-martin','acura', 'audi', 'bentley','bmw', 'buick', 'cadillac', 'chevrolet', 'chrysler','dodge', 'ferrari',  'ford', 'honda',  'hyundai', 'infiniti', 'jaguar', 'jeep', 'kia',  'land-rover',
+  'aston-martin', 'alfa-romeo', 'acura', 'audi', 'bentley','bmw', 'buick', 'cadillac', 'chevrolet', 'chrysler','dodge', 'ferrari',  'ford', 'honda',  'hyundai', 'infiniti', 'jaguar', 'jeep', 'kia',  'land-rover',
   'lexus', 'lincoln', 'lotus',  'maserati', 'mazda',  'mercedes-benz',  'mini', 'mitsubishi', 'nissan',  'porsche', 'subaru','suzuki', 'tesla', 'toyota',
   'volkswagen', 
  """
@@ -91,7 +92,6 @@ companies=['volvo', 'fiat','gmc','isuzu','mercury','oldsmobile', 'plymouth','pon
 
 
 
-options = Options()
 #'coupe','wagon','sedan','hatchback','suv','type-s','32-type-s','hybrid','type-r'}
 car_year=[
        '2000','2001','2002','2003','2004','2005','2006','2007','2008','2009',
@@ -125,6 +125,8 @@ for comp in companies:
            car_model=mercedes
        elif comp=="rolls-royce":
            car_model=rolls
+        elif comp=="alfa-romeo":
+           car_model=alfa
        else:
            car_model=eval(comp)
 
