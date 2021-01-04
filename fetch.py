@@ -26,7 +26,7 @@ def err(url,no):
             
     else:
         return 3
-headers = {'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36'}
+headers = {'User-Agent':'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:83.0) Gecko/20100101 Firefox/83.0'}
 
 reve=0
 
@@ -84,7 +84,7 @@ gmc=['acadia-limited', 'envoy', 'envoy-xl', 'envoy-xuv', 'jimmy', 'r/v-3500-seri
 """
  
  """
-companies=[ 'aston-martin', 'alfa-romeo', 'acura', 'audi', 'bentley','bmw', 'buick', 'cadillac', 'chevrolet', 'chrysler','dodge', 'ferrari',  'ford', 'honda',  'hyundai', 'infiniti', 'jaguar', 'jeep', 'kia',  'land-rover',
+companies=[ 'alfa-romeo', 'aston-martin', 'acura', 'audi', 'bentley','bmw', 'buick', 'cadillac', 'chevrolet', 'chrysler','dodge', 'ferrari',  'ford', 'honda',  'hyundai', 'infiniti', 'jaguar', 'jeep', 'kia',  'land-rover',
   'lexus', 'lincoln', 'lotus',  'maserati', 'mazda',  'mercedes-benz',  'mini', 'mitsubishi', 'nissan',  'porsche', 'subaru','suzuki', 'tesla', 'toyota',
   'volkswagen', 'saab', 'volvo', 'fiat','gmc','isuzu','mercury','oldsmobile', 'plymouth','pontiac','ram',  'rolls-royce']
         
@@ -234,7 +234,7 @@ for comp in companies:
             print('Current Timestamp : ', timestampStr)
        d = [coms,models,years,reviewer,date,heading,rating,review]
        export_data = zip_longest(*d, fillvalue = '')
-       with open('rev2/'+comp+'.csv', 'w',encoding="utf-8",  newline='') as myfile:
+       with open('reviews/'+comp+'.csv', 'w',encoding="utf-8",  newline='') as myfile:
              wr = csv.writer(myfile)
              print("writing")
              wr.writerow(("Company","Model", "Year","Reviewer","Date","Title","Rating","Review"))
@@ -253,6 +253,8 @@ for comp in companies:
        print(len(review))
        print(len(heading))
        reve+=len(review)
+       print("Started at: ",timestampStr_start)
+       print("Right now at: ",timestampStr_end)
        time.sleep(30)
        print("Done with rest, moving on")
 

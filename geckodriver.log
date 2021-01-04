@@ -164,3 +164,8 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1609751633392	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
 JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1609774252963	geckodriver	INFO	Listening on 127.0.0.1:35303
+1609774252969	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5Dwo5X"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609774256986	Marionette	INFO	Listening on port 44005
+1609774257112	Marionette	WARN	TLS certificate errors will be ignored for this session
