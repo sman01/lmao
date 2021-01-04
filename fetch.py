@@ -253,6 +253,8 @@ for comp in companies:
        print(len(review))
        print(len(heading))
        reve+=len(review)
+       time.sleep(30)
+       print("Done with rest, moving on")
 
 driver.quit()
 print("done")
