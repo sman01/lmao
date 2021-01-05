@@ -169,3 +169,4 @@ JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEven
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
 1609774256986	Marionette	INFO	Listening on port 44005
 1609774257112	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cti.w55c.net/ct/cms-2.min.js, line 1: TypeError: s[i.parameter] is undefined
