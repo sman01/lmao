@@ -174,3 +174,9 @@ JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEven
 JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
 JavaScript error: https://cti.w55c.net/ct/cms-2.min.js, line 1: TypeError: s[i.parameter] is undefined
 1609908183725	Marionette	INFO	Stopped listening on port 44005
+1609908375844	geckodriver	INFO	Listening on 127.0.0.1:48945
+1609908376853	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTtlTlj"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609908380625	Marionette	INFO	Listening on port 36273
+1609908380695	Marionette	WARN	TLS certificate errors will be ignored for this session
+1609932350027	Marionette	INFO	Stopped listening on port 36273
