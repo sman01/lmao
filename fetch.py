@@ -255,6 +255,7 @@ for comp in companies:
        reve+=len(review)
        print("Started at: ",timestampStr_start)
        print("Right now at: ",timestampStr_end)
+       print("Reviews till now: ",reve)
        time.sleep(30)
        print("Done with rest, moving on")
 
