@@ -107,7 +107,6 @@ ifi=0
 dateTimeObj = datetime.now()
 timestampStr_start = dateTimeObj.strftime("%d-%b-%Y (%H:%M:%S.%f)")
 for comp in companies:
-       time.sleep(5)
        models=[]
        years=[]
        page_count=0
@@ -160,7 +159,7 @@ for comp in companies:
               if result.status_code==200:
                 driver.set_page_load_timeout(180)  
                 driver.get(url)
-                time.sleep(3)
+                time.sleep(10)
                 revdate=driver.find_elements_by_xpath("/html/body/div/div/main/div/div[3]/div[1]/div[5]/div/div[1]/div[1]/div[1]")
                 if revdate==[]:
                       # print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$=============next year=============$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
