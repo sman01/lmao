@@ -223,3 +223,13 @@ JavaScript error: https://cti.w55c.net/ct/cms-2.min.js, line 1: TypeError: s[i.p
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
 1610100177767	Marionette	INFO	Listening on port 42763
 1610100177851	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1610102424114	Marionette	INFO	Stopped listening on port 42763
+1610102425376	geckodriver	INFO	Listening on 127.0.0.1:48585
+1610102425380	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVnntl8"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610102428737	Marionette	INFO	Listening on port 42601
+1610102428831	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
