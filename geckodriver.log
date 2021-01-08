@@ -186,3 +186,40 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1609932487773	Marionette	INFO	Listening on port 32907
 1609932487887	Marionette	WARN	TLS certificate errors will be ignored for this session
 1609932826472	Marionette	INFO	Stopped listening on port 32907
+1609952793749	geckodriver	INFO	Listening on 127.0.0.1:43941
+1609952794753	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehDS4jM"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609952798663	Marionette	INFO	Listening on port 35775
+1609952798794	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: https://cti.w55c.net/ct/cms-2.min.js, line 1: TypeError: s[i.parameter] is undefined
+JavaScript error: https://cti.w55c.net/ct/cms-2.min.js, line 1: TypeError: s[i.parameter] is undefined
+JavaScript error: https://cti.w55c.net/ct/cms-2.min.js, line 1: TypeError: s[i.parameter] is undefined
+JavaScript error: https://cti.w55c.net/ct/cms-2.min.js, line 1: TypeError: s[i.parameter] is undefined
+JavaScript error: https://cti.w55c.net/ct/cms-2.min.js, line 1: TypeError: s[i.parameter] is undefined
+JavaScript error: https://cti.w55c.net/ct/cms-2.min.js, line 1: TypeError: s[i.parameter] is undefined
+JavaScript error: https://cti.w55c.net/ct/cms-2.min.js, line 1: TypeError: s[i.parameter] is undefined
+JavaScript error: https://cti.w55c.net/ct/cms-2.min.js, line 1: TypeError: s[i.parameter] is undefined
+JavaScript error: https://cti.w55c.net/ct/cms-2.min.js, line 1: TypeError: s[i.parameter] is undefined
+Marionette threw an error: TypeError: this.curBrowser.contentBrowser is null
+GeckoDriver.prototype.navigateTo@chrome://marionette/content/driver.js:1207:3
+
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1610000447721	Marionette	INFO	Stopped listening on port 35775
+1610001368569	geckodriver	INFO	Listening on 127.0.0.1:35051
+1610001368575	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileFJHHgd"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610001371842	Marionette	INFO	Listening on port 33013
+1610001371913	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cti.w55c.net/ct/cms-2.min.js, line 1: TypeError: s[i.parameter] is undefined
+JavaScript error: https://cti.w55c.net/ct/cms-2.min.js, line 1: TypeError: s[i.parameter] is undefined
+JavaScript error: https://cti.w55c.net/ct/cms-2.min.js, line 1: TypeError: s[i.parameter] is undefined
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C000A,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+1610090609079	Marionette	INFO	Stopped listening on port 33013
+1610100172494	geckodriver	INFO	Listening on 127.0.0.1:59183
+1610100173499	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileUd6sG6"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610100177767	Marionette	INFO	Listening on port 42763
+1610100177851	Marionette	WARN	TLS certificate errors will be ignored for this session
