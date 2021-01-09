@@ -86,8 +86,10 @@ gmc=['acadia-limited', 'envoy', 'envoy-xl', 'envoy-xuv', 'jimmy', 'r/v-3500-seri
  'ford', 'honda',  'hyundai', 'infiniti', 'jaguar', 'jeep', 'kia',  'land-rover',
  """
 companies=[  
-  'lexus', 'lincoln', 'lotus',  'maserati', 'mazda',  'mercedes-benz',  'mini', 'mitsubishi', 'nissan',  'porsche', 'subaru','suzuki', 'tesla', 'toyota',
-  'volkswagen', 'saab', 'volvo', 'fiat','gmc','isuzu','mercury','oldsmobile', 'plymouth','pontiac','ram',  'rolls-royce']
+  'lexus', 'lincoln', 'lotus',  'maserati', 'mazda',  'mercedes-benz',  'mini', 'mitsubishi',
+   'nissan',  'porsche', 'subaru','suzuki', 'tesla', 'toyota',
+  'volkswagen', 'saab', 'volvo', 'fiat','gmc','isuzu','mercury','oldsmobile', 'plymouth','pontiac',
+  'ram',  'rolls-royce']
         
 
 

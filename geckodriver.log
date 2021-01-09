@@ -251,3 +251,4 @@ JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEven
 JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
 JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
 JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1610188040309	Marionette	INFO	Stopped listening on port 34089
