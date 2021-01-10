@@ -88,8 +88,8 @@ gmc=['acadia-limited', 'envoy', 'envoy-xl', 'envoy-xuv', 'jimmy', 'r/v-3500-seri
    'nissan',  'porsche', 'subaru','suzuki', 'tesla',
  """
 companies=[  
-   'toyota',
-  'volkswagen', 'saab', 'volvo', 'fiat','gmc','isuzu','mercury','oldsmobile', 'plymouth','pontiac',
+   'toyota', 'volkswagen', 'saab', 'volvo', 'fiat','gmc','isuzu','mercury','oldsmobile', 'plymouth',
+   'pontiac',
   'ram',  'rolls-royce']
         
 
