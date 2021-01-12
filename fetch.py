@@ -105,6 +105,7 @@ options = Options()
  # Last I checked this was necessary.
 
 driver = webdriver.Firefox()
+driver.set_window_size(360,480)
 comps=[]
 sum=0
 ifi=0
